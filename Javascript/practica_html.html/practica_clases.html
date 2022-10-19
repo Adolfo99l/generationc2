@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        alert("Buenos dias para ingresar a la web porfavor completar el formulario");
+    var nombre =(prompt("Ingrese su nombre"));
+        console.log(nombre);
+
+    var apellido =(prompt("Ingrese su apellido"));
+        console.log(apellido);
+        
+
+    var rut =(prompt("Ingrese su numero de rut"));
+        console.log(rut)
+
+    var edad =parseInt(prompt("Ingrese su edad"));
+        
+        if(edad >= 18){//true(verdadero)
+            console.log("bienvenido a nuestra web.");
+            alert("Felicidades a completado su formulario de ingreso disfrute su estancia en la web.")    
+        }else{
+            console.log("Lo sentimos usted no cumple con los requisitos minimos de edad su ingreso queda denegado");
+            alert("Lo sentimos usted no cumple con los requisitos minimos de edad su ingreso queda denegado");
+        }
+        document.write("El nombre es", nombre);
+        document.write("<br>");
+        document.write("El apellido es", apellido);
+        document.write("<br>");
+        document.write("El numero de rut es ", rut);
+        document.write("<br>");
+        document.write("Tiene", edad," años de edad");
+    
+    
+    </script>
+
+</body>
+</html>
